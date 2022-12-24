@@ -21,7 +21,7 @@ def main():
     print('The file containing your string is as follows: ')
     read()
     print()
-    print('The file up untill letter o is: ')   # the code to only print the file until letter o
+    print('The file up untill letter o is: ')   
     with open('myfile.info', 'rb') as f:
         data = pickle.load(f)
     for word in data:
