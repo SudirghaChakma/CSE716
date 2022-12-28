@@ -1,7 +1,7 @@
 import pickle
 
 
-def write():        # writing a string of two lines in a binary file
+def write():                 # writing a string of two lines in a binary file
     with open('myfile.info', 'wb') as f:
         a = input("Enter first line: ")
         b = input("Enter second line: ")
@@ -17,7 +17,7 @@ def read():
 
 def main():
     write()
-    print('Your string has been written to the binary file.')
+    print('The string has been written to the binary file.')
     print('The file containing your string is as follows: ')
     read()
     print()
